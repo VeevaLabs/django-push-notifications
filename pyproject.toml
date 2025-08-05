@@ -5,5 +5,8 @@ requires = ["setuptools>=30.3.0", "wheel", "setuptools_scm"]
 minversion = "6.0"
 addopts = "--cov push_notifications --cov-append --cov-branch --cov-report term-missing --cov-report=xml"
 
+[tool.ruff.format]
+indent-style = "tab"
+
 [tool.setuptools_scm]
 
